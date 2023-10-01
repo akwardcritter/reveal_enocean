@@ -15,19 +15,140 @@
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      .trio {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+      }
+    </style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <section>
-          Slide 1
-          <img
-            src="https://www.wago.com/medias/logo-eno-alliance-2000x1125.jpg?context=bWFzdGVyfGltYWdlc3w4NDc2NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJoaE5DOW9aRFF2TVRBME1qa3pNVEEyTXpFNU5qWXVhbkJufGVhNDA0OWI2YzUxMTYxODg1OGZmMjAwNGY3MTVlNmE2ZTY0MDU5NDcwYzdlYzQwNzY1MTM0YzkzZTlmY2UzZDQ"
-          />
+          <img src="images/logo.png" />
+          <h1>EnOcean</h1>
         </section>
         <section>
-          <section>Slide 2</section>
-          <section>Slide 2.1</section>
+          <section>
+            <h2>Idee:</h2>
+            <p>kurze Funksignale - wenig Energie</p>
+          </section>
+          <section>
+            <h2>Energy Harvesting</h2>
+            <ul>
+              <li>Bewegung</li>
+              <li>Licht</li>
+              <li>Temperatur</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>ISO/IEC 14543-3-10</h2>
+            <blockquote>
+              Information technology - <br />
+              Home Electronic Systems (HES) - <br />
+              Part 3-10: Wireless Short-Packet (WSP) protocol optimized for
+              energy harvesting
+            </blockquote>
+          </section>
+          <section>
+            <table>
+              <tr>
+                <th>Region</th>
+                <th>Frequenzbereich</th>
+              </tr>
+              <tr>
+                <td>Europa</td>
+                <td>868,3 MHz</td>
+              </tr>
+              <tr>
+                <td>Japan</td>
+                <td>928 MHz</td>
+              </tr>
+              <tr>
+                <td>Nordamerika</td>
+                <td>902 MHz</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <table>
+              <tr>
+                <th>Bereich</th>
+                <th>Funkreichweite</th>
+              </tr>
+              <tr>
+                <td>freies Gelände</td>
+                <td>bis zu 300m</td>
+              </tr>
+              <tr>
+                <td>in Gebäuden</td>
+                <td>bis zu 30m</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h2 class="r-fit-text">
+              Datendurchsatz: <br />
+              125 kbit/s
+            </h2>
+          </section>
+        </section>
+        <section>
+          <h2>Nachteile</h2>
+          <ul>
+            <li>geringe Datenrate</li>
+            <li>geringe Reichweite</li>
+            <li>Sicherheit</li>
+          </ul>
+        </section>
+        <section>
+          <img src="images/sensor.png" />
+          <p>
+            <a
+              href="https://www.enocean.com/wp-content/uploads/downloads-produkte/en/products/enocean_modules/stm-300/data-sheet-pdf/STM300x_DataSheet_May2019.pdf"
+              >Bidirektionales batterieloses <br />
+              Funksensormodul</a
+            >
+          </p>
+        </section>
+        <section>
+          <h2>Sources</h2>
+          <ul
+            style="
+              list-style: none;
+              font-size: large;
+              display: flex;
+              flex-direction: column;
+              gap: 1rem;
+            "
+          >
+            <li style="text-align: left">
+              „Advantages of EnOcean Technology | Disadvantages of EnOcean
+              Wireless IoT Technology“. In: rfwireless-world. URL:
+              https://www.rfwireless-world.com/Terminology/Advantages-and-Disadvantages-of-EnOcean-Wireless-IoT-Technology.htm
+            </li>
+            <li style="text-align: left">
+              „Energy Harvesting“. In: enocean. URL:
+              https://www.enocean.com/de/technologie/energy-harvesting/
+            </li>
+            <li style="text-align: left">
+              „Enocean“. In: Wikipedia Die freie Enzyklopädie.
+              Bearbeitungsstand: 22. April 2023, 08:55 UTC. URL:
+              https://de.wikipedia.org/w/index.php?title=Enocean&oldid=233056605
+            </li>
+            <li style="text-align: left">
+              „Funktechnologie“. In: enocean. URL:
+              https://www.enocean.com/de/technologie/funktechnologie/
+            </li>
+            <li style="text-align: left">
+              „ISO-IEC-14543“. In: itwissen. URL:
+              https://www.itwissen.info/14543-ISO-IEC-14543.html
+            </li>
+          </ul>
         </section>
       </div>
     </div>
